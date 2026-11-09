@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: backend-demo
+
+# 日志级别：开发时把自己的包调到 DEBUG，方便看 SQL 和请求参数
+logging:
+  level:
+    com.example.backenddemo: DEBUG
